@@ -1047,7 +1047,7 @@
         };
 
         function startTimer() {
-            const startDate = new Date(2000 + correctPassword.year, correctPassword.month - 1, correctPassword.day+1);
+            const startDate = new Date(2000 + correctPassword.year, correctPassword.month - 1, correctPassword.day);
             
             function updateTimer() {
                 const now = new Date();
@@ -1076,4 +1076,5 @@
         updateDisplay();
     </script>
 </body>
+
 </html>
